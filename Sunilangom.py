@@ -15,7 +15,7 @@ st.subheader("Developed by Sunil Angom")
 # Optional banner image
 try:
     image = Image.open("student_banner.jpg")  # Replace with your image filename
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 except:
     st.warning("📷 'student_banner.jpg' not found. You can add it to enhance the UI.")
 

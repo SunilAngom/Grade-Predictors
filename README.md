@@ -1,16 +1,65 @@
-#ABSTRACT 
-Accurately forecasting students' academic performance is essential in the field of edu
-cational analytics in order to provide early interventions and individualized learning 
-support. The goal of this project is to create a prediction model that calculates a stu
-dent's final grade by taking into account a number of academic and individual criteria, 
-including study hours, attendance, parental education, class involvement  and prior 
-grades.  
-We trained a model that could predict continuous grades using a cleaned and prepro
-cessed dataset using the supervised machine learning technique Linear Regres
-sion.Performance indicators such as R2 Score, Mean Absolute Error (MAE), and Root 
-Mean Square Error (RMSE) were used to assess the model. 
-Additionally, Streamlit was used to create a web-based user interface that lets users 
-enter pertinent information and evaluate performance recommendations and expected 
-results right away. This method shows how AI may be used practically in education 
-and might help educators, learners and institutions monitor and enhance academic 
-achievement.  
+# 🎓 Student Grades Prediction Using Linear Regression
+
+This project aims to predict student grades based on various input features such as study time, attendance, previous scores, etc. It utilizes **Linear Regression** to model and forecast final grades.
+
+---
+
+## 📌 Project Objectives
+
+- To analyze key factors influencing student performance.
+- To develop a predictive model using linear regression.
+- To visualize actual vs predicted student grades.
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Programming Language**: Python
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
+- **IDE/Platform**: Jupyter Notebook / VS Code
+- **Version Control**: Git & GitHub
+
+---
+
+## 📊 Dataset
+
+- The dataset used is `student_data.csv`.
+- It contains features like:
+  - Hours of study
+  - Attendance percentage
+  - Assignment score
+  - Internal marks
+  - Final grade (target)
+
+---
+
+## 🔍 Approach
+
+1. Data Cleaning and Preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Splitting data into training and testing sets
+4. Model building using `LinearRegression()` from scikit-learn
+5. Evaluation using:
+   - R² Score
+   - Mean Squared Error (MSE)
+6. Visualization:
+   - Actual vs Predicted Plot
+   - Residual Plot
+   - Distribution Plot
+
+---
+
+## 📈 Sample Output
+
+- **R² Score**: *0.87* (example)
+- **MSE**: *12.34* (example)
+- **Predicted vs Actual** plot shows a close fit, indicating good model performance.
+
+---
+
+## 📦 How to Run
+
+```bash
+git clone https://github.com/your-username/grade-prediction.git
+cd grade-prediction
+python model.py

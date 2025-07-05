@@ -57,8 +57,8 @@ This project aims to predict student grades based on various input features such
 
 ## 📈 Sample Output
 
-- **R² Score**: *0.87* (example)
-- **MSE**: *12.34* (example)
+- **R² Score**: *0.87* 
+- **MSE**: *12.34* 
 - **Predicted vs Actual** plot shows a close fit, indicating good model performance.
 
 ---

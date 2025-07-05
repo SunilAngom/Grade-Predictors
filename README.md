@@ -4,6 +4,12 @@ This project aims to predict student grades based on various input features such
 
 ---
 
+## 🚀 Live App
+
+🔗 [Streamlit Demo](https://your-streamlit-link-here)
+
+---
+
 ## 📌 Project Objectives
 
 - To analyze key factors influencing student performance.
